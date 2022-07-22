@@ -1,0 +1,19 @@
+
+func getTime() -> String {
+    let formatter = DateFormatter()
+    formatter.timeStyle = .short
+    let dateString = formatter.string(from: Date())
+    return dateString
+}
+
+func getDate() -> String {
+    let date = Date()
+    let dateFormatter = DateFormatter()
+    dateFormatter.dateFormat = "dd/MM/yyyy"
+    return dateFormatter.string(from: date)
+    
+    
+}
+
+print(getTime())
+print(getDate())
