@@ -38,6 +38,9 @@ struct Texfield_and_stuff_View: View {
             .textContentType(.password)
             
             .padding()
+            
+            
+            
         
 
         
@@ -45,6 +48,34 @@ struct Texfield_and_stuff_View: View {
             .padding()
             .frame(width: 250, height: 350)
             .border(Color.blue, width: 4)
+            
+            
+            
+            
+            //*****. if you want to delete the default backround put this under ContentView: ****
+            
+           //     init() {
+       //   UITextView.appearance().backgroundColor = .clear
+     // }
+            
+               TextEditor(text: $textEditor)
+                .background(Color.black)
+                     .foregroundColor(.green)
+                     .padding()
+            
+            //to have some rounded frame
+            .overlay(
+                          RoundedRectangle(cornerRadius: 20)
+                              .stroke(Color.white, lineWidth: 2)
+                      )
+            
+            
+            
+            
+            
+            
+            
+            
         }
     }
 }
