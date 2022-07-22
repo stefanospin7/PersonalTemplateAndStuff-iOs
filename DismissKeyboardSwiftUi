@@ -1,0 +1,6 @@
+//use this to dismiss keyboard in SwiftUi with a tap on the view:
+
+}//end of the view
+      .onTapGesture {
+            UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+        }
