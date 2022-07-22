@@ -1,4 +1,4 @@
-//use this to dismiss keyboard in SwiftUi with a tap on the view:
+//use this to dismiss keyboard in SwiftUi with a tap on the view or including it in a button (for example in a "Search Button")
 
 }//end of the view
       .onTapGesture {
