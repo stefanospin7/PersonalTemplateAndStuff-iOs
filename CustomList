@@ -3,3 +3,30 @@
                                 .padding(.vertical, 2)
                         }.frame(height: 12)
                         
+
+//Further Customization
+               
+                List{
+                    Text("Hello")
+                        .foregroundColor(.green)
+                        .listRowBackground(Color.black)
+                    
+                    
+                    Text("Hello")
+                        .foregroundColor(.green)
+                        .listRowBackground(Color.black)
+                    
+                    
+                }
+                
+                .background(Color.black.ignoresSafeArea())
+                .onAppear {
+                    // Set the default to clear
+                    UITableView.appearance().backgroundColor = .clear
+                }
+                
+                
+                .overlay(
+                    RoundedRectangle(cornerRadius: 7)
+                        .stroke(Color.white, lineWidth: 2)
+                ).padding()
