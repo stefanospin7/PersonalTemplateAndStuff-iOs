@@ -1,0 +1,5 @@
+        ForEach(unique[0...15]) { name in
+                            Text(name.nameResults)
+                                .padding(.vertical, 2)
+                        }.frame(height: 12)
+                        
