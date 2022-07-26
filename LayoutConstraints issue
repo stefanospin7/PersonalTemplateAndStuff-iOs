@@ -1,6 +1,10 @@
 //To solve the "LayoutConstraints issue" just make the navigation view like this:
 
 
+//"Unable to simultaneously satisfy constraints."
+//"UIViewAlertForUnsatisfiableConstraints"
+
+
 var body: some View {
     NavigationView{
         Text("Hello World!")
