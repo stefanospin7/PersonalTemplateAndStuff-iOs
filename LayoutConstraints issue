@@ -14,7 +14,7 @@ var body: some View {
     
     
     
-    .navigationViewStyle(StackNavigationViewStyle()) //***ADD THIS***
+    .navigationViewStyle(StackNavigationViewStyle()) //*** ADD THIS ALSO IN ALL THE OTHER VIEW !!! ***
 }
 
 
