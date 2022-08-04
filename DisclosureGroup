@@ -1,0 +1,7 @@
+//use this to make a disclosure group
+
+
+DisclosureGroup("Short Description") {
+    Text("Your long description stay here :)")
+}
+.frame(width: 300)
