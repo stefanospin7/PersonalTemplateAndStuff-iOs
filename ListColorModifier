@@ -1,0 +1,15 @@
+//Use this to customize the backround of a list:
+
+
+
+List{
+
+Item()
+     .listRowBackground(Color.black)
+
+
+
+}.onAppear() {
+                        UITableView.appearance().backgroundColor = UIColor.black
+                        //UITableViewCell.appearance().backgroundColor = UIColor.green
+                    }
