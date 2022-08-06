@@ -1,2 +1,2 @@
 # PersonalTemplate
-This repo contains just some custom stuff I made in SwiftUI
+This repo contains just some custom stuff I made in SwiftUI and some solutions for common problems in SwiftUI
