@@ -1,0 +1,22 @@
+//use this if you want to change the backround of the text editor:
+
+... View {
+
+    //This way I can delete the default backround of texth editor
+    init() {
+        //For Texth editor backround
+        UITextView.appearance().backgroundColor = .clear
+        
+    }
+    
+    
+    
+    
+         TextEditor(text: $user_text)
+                                .frame(height: 230)
+                                .background(Color.black)
+                                .foregroundColor(.green)
+                                .padding()
+
+
+}
