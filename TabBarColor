@@ -1,0 +1,35 @@
+//use this to change the tab Bar Color
+
+
+            TabView{
+                
+                
+                
+ // tab items ...
+                
+       
+                
+                
+                
+            }
+            .onAppear() {
+                
+          
+              
+                UITabBar.appearance().barTintColor = .black
+                
+                if #available(iOS 13.0, *) {
+                    let tabBarAppearance: UITabBarAppearance = UITabBarAppearance()
+                    tabBarAppearance.configureWithDefaultBackground()
+                    tabBarAppearance.backgroundColor = .black
+                    UITabBar.appearance().standardAppearance = tabBarAppearance
+
+                    if #available(iOS 15.0, *) {
+                        UITabBar.appearance().scrollEdgeAppearance = tabBarAppearance
+                    }
+                }
+                
+
+   
+         
+            }
