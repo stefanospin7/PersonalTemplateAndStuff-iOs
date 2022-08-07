@@ -1,0 +1,12 @@
+//Use this for pure Swift:
+
+
+
+let value = 23.00000
+let roundedValue = round(value * 10) / 10.0
+
+
+//Use this for SwiftUi:
+
+
+ Text("\(yournumber, specifier: "%.1f")") //use 2f for 2 decimal 3 for 3 and so on...
