@@ -1,0 +1,7 @@
+ Button(action: {
+ }) {
+     NavigationLink(destination: SecondView()) {
+     Text("click")
+     //Image or whatever view you want 
+ 	}
+ }
