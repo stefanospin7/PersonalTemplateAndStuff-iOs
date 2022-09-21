@@ -1,0 +1,26 @@
+
+
+struct view{
+
+    @State private var isStarred = false
+
+
+some View{
+
+
+
+
+           Image(systemName: isStarred ? "star.fill" : "star")
+                                .font(.system(size: 100))
+                                .foregroundColor(isStarred ? .red : .black)
+                                .scaleEffect(isStarred ? 0.25 : 0.2)
+                                .animation(.easeInOut(duration: 0.1), value: isStarred)
+                            
+             
+                        .onTapGesture {
+                            self.isStarred.toggle()
+                        }
+                        
+
+
+}
