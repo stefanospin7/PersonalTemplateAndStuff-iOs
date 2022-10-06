@@ -1,0 +1,6 @@
+Add this on the main view to add some action when the app is closed:
+
+ YourView()
+        .onReceive(NotificationCenter.default.publisher(for: UIApplication.didEnterBackgroundNotification), perform: { output in
+                    //Did enter background
+         })
